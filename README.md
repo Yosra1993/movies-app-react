@@ -1,6 +1,46 @@
-# Getting Started with Create React App
+# Movies React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application that interacts with an API to fetch and display information about movies, actors, and directors. Below are the exercises and tasks to be accomplished in this project.
+
+## Exercices
+
+### Exercice 1
+
+Create a service to issue requests to the API to retrieve data. We need to be able to:
+
+- Retrieve all movies by page
+- Retrieve all actors or directors (Person) by page
+- Get a Person by its ID
+
+### Exercice 2
+
+Create a React component to display the first 3 movies in a table. This table must have simple borders.
+
+- Use the new component on the homepage.
+
+### Exercice 3
+
+- We want to get movies 3 by 3 with pagination.
+- We need a button to load the next 3 movies.
+- The button needs to disappear when all the movies have been retrieved.
+
+### Exercice 4
+
+- We would like to display actors and directors by name and not only their own IDs.
+
+## API Documentation
+
+You can find more details about the API using the following links:
+
+- [API Documentation (Swagger UI)](http://ec2-15-237-160-101.eu-west-3.compute.amazonaws.com:8828/swagger-ui/index.html#/kata-controller/findPersonsPaginated)
+- [API Docs JSON](http://ec2-15-237-160-101.eu-west-3.compute.amazonaws.com:8828/v3/api-docs)
+
+## How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Yosra1993/movies-app-react.git
+
 
 ## Available Scripts
 
@@ -29,42 +69,3 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
