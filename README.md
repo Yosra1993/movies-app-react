@@ -47,13 +47,13 @@ You can find more details about the API using the following links:
 
 3. Install dependencies:
    ```bash
-npm install
+   npm install
 
 4. Run the project:
    ```bash
    npm start
 
-   
+
 Opens the app in development mode at http://localhost:3000. The page will reload when you make changes. You may also see any lint errors in the console.
 
 ## Available Scripts
