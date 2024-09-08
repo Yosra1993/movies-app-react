@@ -1,32 +1,6 @@
 # Movies React Project
 
-This project is a React application that interacts with an API to fetch and display information about movies, actors, and directors. Below are the exercises and tasks to be accomplished in this project.
-
-## Exercices
-
-### Exercice 1
-
-Create a service to issue requests to the API to retrieve data. We need to be able to:
-
-- Retrieve all movies by page
-- Retrieve all actors or directors (Person) by page
-- Get a Person by its ID
-
-### Exercice 2
-
-Create a React component to display the first 3 movies in a table. This table must have simple borders.
-
-- Use the new component on the homepage.
-
-### Exercice 3
-
-- We want to get movies 3 by 3 with pagination.
-- We need a button to load the next 3 movies.
-- The button needs to disappear when all the movies have been retrieved.
-
-### Exercice 4
-
-- We would like to display actors and directors by name and not only their own IDs.
+This project is a React application that interacts with an API to fetch and display information about movies, actors, and directors.
 
 ## API Documentation
 
