@@ -1,9 +1,9 @@
 import "./MoviesTableComponent.css";
 
 import { FC, useEffect, useState } from "react";
-import { getMoviesByPage } from "../services/movieService";
-import { Movie } from "../types/movie";
-import PersonComponent from "./PersonComponent";
+import { getMoviesByPage } from "../../services/movieService";
+import { Movie } from "../../types/movie";
+import PersonComponent from "../PersonComponent";
 
 const MoviesTableComponent: FC = () => {
   const [movies, setMovies] = useState<Movie[]>([]);

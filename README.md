@@ -41,6 +41,20 @@ You can find more details about the API using the following links:
    ```bash
    git clone https://github.com/Yosra1993/movies-app-react.git
 
+2. Navigate to the project directory:
+   ```bash
+   cd movies-app-react
+
+3. Install dependencies:
+   ```bash
+npm install
+
+4. Run the project:
+   ```bash
+   npm start
+
+   
+Opens the app in development mode at http://localhost:3000. The page will reload when you make changes. You may also see any lint errors in the console.
 
 ## Available Scripts
 
