@@ -1,0 +1,17 @@
+.movies-table {
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Supprime les espaces entre les cellules par défaut */
+  }
+
+  th,
+  td {
+    padding: 10px 20px; /* Ajoute de l'espace horizontal et vertical aux cellules */
+    text-align: left; /* Aligne le texte à gauche */
+    border-bottom: 1px solid #ddd; /* Ajoute une bordure pour séparer les lignes */
+  }
+
+  th {
+    background-color: #f2f2f2; /* Ajoute un fond pour l'en-tête */
+  }
+}
